@@ -13,6 +13,7 @@ class ItemToPurchase:
 #Example usage:
 item_data= []
 for i in range(2):
+    print(f"Item {i+1}")
     item = ItemToPurchase(
     input("Enter the item name:\n"),
     float(input("Enter the item price:\n")),
